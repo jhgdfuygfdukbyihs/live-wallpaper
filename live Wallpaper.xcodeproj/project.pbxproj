@@ -254,7 +254,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"live Wallpaper/Preview Content\"";
-				DEVELOPMENT_TEAM = PBG8283M6W;
+				DEVELOPMENT_TEAM = BGMST7QCR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs permission to save the created live wallpapers to your photo library.";
@@ -269,7 +269,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.binarywolf.live-Wallpaper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiterabbit.live-Wallpaper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -292,7 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"live Wallpaper/Preview Content\"";
-				DEVELOPMENT_TEAM = PBG8283M6W;
+				DEVELOPMENT_TEAM = BGMST7QCR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs permission to save the created live wallpapers to your photo library.";
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.binarywolf.live-Wallpaper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiterabbit.live-Wallpaper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

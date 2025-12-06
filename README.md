@@ -1,4 +1,4 @@
-# Live Wallpaper 🌟
+# Live Wallpaper 🌟 🌟
 
 Create stunning Live Wallpapers from your videos! This iOS app converts regular videos into Apple Live Photos that work as interactive Lock Screen wallpapers. With features like video trimming, optimization, and direct Photos integration, your wallpaper experience will never be the same.
 
